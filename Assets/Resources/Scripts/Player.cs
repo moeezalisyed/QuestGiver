@@ -40,7 +40,7 @@ public class Player : MonoBehaviour {
     Also, incremental income here starts at 0, but we need to decide if we want to start the player out with
     some low number - more than 0 per "tick."
     */
-	void Start () {
+	void init () {
         this.Gold = 0;
         this.XP = 0;
         this.incrementalIncome = 0;

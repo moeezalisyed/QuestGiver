@@ -18,7 +18,7 @@ public class Hero : MonoBehaviour {
     // Here we initialize the above variables and require an integer representation of "class" to be
     //passed as a parameter
 
-	void Start (int Class) {
+	void init (int Class) {
         this.numWins = 0;
         this.experienceLevel = 0;
         this.heroClass = Class;
